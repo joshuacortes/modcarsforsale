@@ -115,14 +115,14 @@ Audi S3 2011
 <br>
 <section style="background-color:#3e665e;width:100%;">
 <div style="overflow:hidden;">
-<div style="float:left; width:50%;">
+<div class="boxleftfloat">
 <center>
 <p style="color:#fff;"><b>Find Your Next Car</b>
 <br>
 Whether you’re looking for a customized show car with clean lines and immaculate bodywork.. An imported Japanese car.. Or your next project car.. Our used modified car page lists the best modified cars for sale from around the UK.
 </p></center>
 </div>
-<div style="float:left; width:50%;">
+<div class="boxleftfloat">
 <center>
 <p style="color:#fff;"><b>Sell Your Car Free</b>
 <br>
@@ -296,7 +296,17 @@ float:left;
 height:40px;
 }
 
+.boxleftfloat{
+float:left; width:50%;
+}
+
 @media only screen and (max-width:1200px){
+
+.boxleftfloat{
+float:none; width:100%;
+}
+
+
 .smallspace{
 height:5px;
 }
