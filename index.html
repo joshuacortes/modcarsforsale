@@ -62,7 +62,9 @@ font-size:.9em;
 </style>
 
 <div class="container">
-  <img src="https://i.postimg.cc/ZRfwVy88/modified-cars-for-sale-3.png" alt="Modified Cars for Sale" style="width:100%;">
+  <img class="containerimg"src="https://i.postimg.cc/4yFKnXzb/modified-cars-for-sale-mobile-1.png" alt="Modified Cars for Sale" style="width:100%;">
+  
+   <img class="containerimgmobile"src="https://i.postimg.cc/ZRfwVy88/modified-cars-for-sale-3.png" alt="Modified Cars for Sale" style="width:100%;">
   
   <div class="centered">
 <center><h2 class="blogo">Modified Cars for Sale</h2>
@@ -252,6 +254,14 @@ background-color:#fafafa;position:fixed; width:100%;z-index:9999;
   position: relative;
   text-align: center;
   color: white;
+  height:auto;
+}
+  
+  .containerimg {
+    display:block;
+}
+   .containerimgmobile {
+    display:none;
 }
 
 
@@ -404,7 +414,18 @@ padding:5px;
   display:block;
   }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1000px){
+  
+  
+  .containerimg{
+  height:auto;
+    display:none;
+  }
+   .containerimgmobile{
+  height:auto;
+     display:block;
+  }
+  
   
   .bannertext{
   }
@@ -447,7 +468,7 @@ width:80%;
 
 .blogo{
 
-font-size:1em;
+font-size:1.4em;
 opacity:0.9;
 
 }
