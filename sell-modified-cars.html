@@ -59,7 +59,12 @@ font-size:.9em;
 <bR>
 
 <div class="container">
-  <img src="https://i.postimg.cc/3wzXRCFb/sell-modified-cars-6.png" alt="Snow" style="width:100%;">
+  <img src="" alt="Snow" style="width:100%;">
+  
+   <img class="containerimg"src="https://i.postimg.cc/VLdrpb87/sell-modified-cars-mobile-1.png" alt="Modified Cars for Sale" style="width:100%;">
+  
+   <img class="containerimgmobile"src="https://i.postimg.cc/3wzXRCFb/sell-modified-cars-6.png" alt="Modified Cars for Sale" style="width:100%;">
+  
   
   <div class="centered">
 <center><h2 class="blogo1">Sell your modified car</h2>
@@ -200,7 +205,11 @@ for (i = 0; i < acc.length; i++) {
 
 
 <div class="container">
-  <img src="https://i.postimg.cc/v8NPnfHM/sell-modified-cars-5.png" alt="Sell modified cars" style="width:100%;">
+  
+  <img class="containerimg"src="https://i.postimg.cc/65g2X56B/sell-modified-cars-mobile-2.png" alt="Modified Cars for Sale" style="width:100%;">
+  
+   <img class="containerimgmobile"src="https://i.postimg.cc/v8NPnfHM/sell-modified-cars-5.png" alt="Modified Cars for Sale" style="width:100%;">
+  
   
   <div class="centered">
 <center><h2 class="blogo1">Post your Modified Car</h2>
@@ -283,6 +292,12 @@ background-color:#fafafa;position:fixed; width:100%;z-index:9999;
   position: relative;
   text-align: center;
   color: white;
+}
+ .containerimg {
+    display:block;
+}
+   .containerimgmobile {
+    display:none;
 }
 
 
@@ -443,7 +458,19 @@ padding:5px;
 }
 
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1000px){
+  
+    
+  .containerimg{
+  height:auto;
+    display:none;
+  }
+   .containerimgmobile{
+  height:auto;
+     display:block;
+  }
+  
+  
 
 .carcardprofile{
 width:48%;
