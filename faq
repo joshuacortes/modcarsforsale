@@ -1,0 +1,504 @@
+<head>
+<title>Frequently Asked Questions - modcarsforsale.com</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta property="og:site_name" content="Modified Cars for Sale">
+<meta property="og:url" content="https://modcarsforsale.com/">
+<meta property="og:title" content="Modified Cars for Sale">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Modified cars for sale available from private owners/organizations.">
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P72RDQFGWC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P72RDQFGWC');
+</script>
+</head>
+<style>
+.ticker{
+width:100%;
+background-color:#ececec;
+}
+
+.ticker:hover{
+opacity:0.9;
+}
+
+.tickertext{
+padding:10px;
+margin:0;
+color:#000000;
+font-size:.9em;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+</style>
+<div class="headernav">
+<a style="text-decoration:none;" href="/create-listing"><div class="ticker"><center><p class="tickertext">Submit Modified Vehicle &#8250;</p></center></div></a>
+<Center>
+<a style="text-decoration:none;" href="/"><p class="logo">modcarsforsale.com</p></a>
+<br>
+<div style="margin-top:-10px;">
+<a class="navlink" href="/modified-cars">Modified Cars</a>
+<a class="navlink" href="/modified-trucks">Modified Trucks</a>
+<a class="navlink" href="/sell-modified-cars">Sell Modified Car</a>
+</div>
+</center>
+<br>
+</div>
+
+
+<div class="optheight"></div>
+<center>
+<div class="banner">
+<p class="logo13">FAQ</p>
+<section style="background-color:#fcfcfc;width:100%;">
+<br>
+
+  <center>
+<div class="banner">
+<button class="accordion"><p style="text-transform: none;">Selling privately</p></button>
+<div class="panel">
+  <p>
+    If you are looking to sell your modified car modcarsforsale.com is the right place.
+<br><br>
+You can sell your car with us whether your car is heavily modified, or has a couple of small exterior aftermarket parts. We have buyers who are looking to purchase completely overhauled cars, and buyers looking to start new projects!
+
+<br><br>
+Your best bet is to list all modifications you have carried out. And any technical specs you include will help our buyers filter our car listings, increasing the chance for your ad to be seen!
+    
+  </p>
+</div>
+
+<button class="accordion"><p style="text-transform: none;">Selling as a dealer</p></button>
+<div class="panel">
+  <p>If you are looking to sell multiple modified cars then upgrading to a free dealer account will be best.
+<br><br>
+With a dealer account you get to upload up to 20 car listings. If 20 cars isn’t enough, and you have higher volume please get in touch and we will manually review your account.
+<br><br>
+You also get the added benefit of uploading more pictures for each listing. And you get your dealer information, including logo, email and address on the listing page. This allows buyers to instantly recognise your brand throughout our listings.
+<br><br>
+Upgrading is free and takes less than 30 seconds.
+  </p>
+</div>
+  
+  <button class="accordion"><p style="text-transform: none;">Managing your ad</p></button>
+<div class="panel">
+  <p>You can manage your free listings with ease from your dashboard.
+<br><br>
+Simply visit your dashboard by clicking the user icon in top right corner, and select your listing. From there you will be taken to our edit listing page, where you can upload new photos, change your price and change the description.
+<br><br>
+We aim to make selling your modified car as easy as it can possibly be. Manage your advert with ease!
+  </p>
+</div>
+  
+ 
+</div>
+  
+  <br><br><br>
+  </div>
+  </center>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+<style>
+  
+    button{
+      font-weight:bold;
+    }
+    
+.accordion {
+ 
+  cursor: pointer;
+  padding: 7px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  background-color:#fcfcfc;
+}
+
+.active, .accordion:hover {
+  opacity:0.6;
+
+}
+
+    
+
+.panel {
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+}
+</style>
+
+
+<br><br>
+</section>
+
+
+
+<div class="container">
+  
+  <img class="containerimg"src="https://i.postimg.cc/65g2X56B/sell-modified-cars-mobile-2.png" alt="Modified Cars for Sale" style="width:100%;">
+  
+   <img class="containerimgmobile"src="https://i.postimg.cc/v8NPnfHM/sell-modified-cars-5.png" alt="Modified Cars for Sale" style="width:100%;">
+  
+  
+  <div class="centered">
+<center><h2 class="blogo1">Post your Modified Car</h2>
+<p>Sell your customized car to thousands of buyers by creating a $5 listing.</p>
+<div class="smallspace"></div>
+<a class="btn" href="/create-listing">Create Listing </a>
+</center>
+
+</div>
+</div>
+
+
+<section class="footer">
+<br>
+<div style="overflow:hidden;">
+<div style="float:left; width:30%;">
+<center><div style="padding:10px;">
+<a class="footerlink" href="">Home</a></div>
+<br><div style="padding:10px;">
+<a class="footerlink" href="">Modified Cars</a></div>
+<br><div style="padding:10px;">
+<a class="footerlink" href="">Modified Trucks</a></div>
+
+</center>
+</div>
+<div style="float:left; width:30%;">
+<center><div style="padding:10px;">
+<a class="footerlink" href="/faq">FAQ</a></div>
+<br>
+<div style="padding:10px;">
+<a class="footerlink" href="/contact">Contact</a></div>
+<br><div style="padding:10px;">
+<a class="footerlink" href="/privacy">Privacy</a></div>
+<br>
+<div style="padding:10px;">
+<a  class="footerlink" href="/terms">Terms of Use</a></div>
+
+</center>
+</div>
+<div style="float:left; width:30%;">
+<center><div style="padding:10px;">
+<a class="footerlink" href="https://www.instagram.com/modcarsforsale/"><img style="width:22px;" src="https://i.postimg.cc/BvGXgMgF/black-instagram.png"/></a></div>
+<br><div style="padding:10px;">
+<a class="footerlink" href="https://i.pinimg.com/originals/30/96/41/3096411149e17c4ee97b3cc30b16c42d.png"><img style="width:22px;" src="https://i.postimg.cc/MpBnVhyx/black-and-white-youtube.png"/></a></div>
+
+
+</center>
+</div>
+</div>
+<br><br><br>
+<center>
+<p class="copyright">Copyright © 2022 MODCARSFORSALE.COM</p>
+</center>
+</section>
+
+
+
+<style>
+a{
+
+
+}
+a:hover{
+opacity:0.7;
+
+
+}
+
+body{
+padding:0;
+margin:0;
+font-family:arial;
+    background-color:#fcfcfc;
+  
+}
+
+.headernav{
+background-color:#fafafa;position:fixed; width:100%;z-index:9999;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+ .containerimg {
+    display:block;
+}
+   .containerimgmobile {
+    display:none;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+width:100%;
+}
+
+
+.logo{
+font-family:arial;
+font-size:1em;
+letter-spacing:1px;
+text-transform:uppercase;
+padding:8px;
+width:300px;
+color:#c4c4c4;
+}
+
+.logo12{
+font-family:arial;
+font-size:1em;
+letter-spacing:1px;
+text-transform:uppercase;
+padding:8px;
+width:300px;
+border-left:1px solid #3d3d3d;
+color:#3d3d3d;
+border-right:1px solid #3d3d3d;
+}
+  
+  .logo13{
+font-family:arial;
+font-size:1em;
+letter-spacing:1px;
+text-transform:uppercase;
+padding:8px;
+width:300px;
+color:#3d3d3d;
+}
+
+.blogo{
+font-family:arial;
+font-size:3.2em;
+letter-spacing:1px;
+text-transform:uppercase;
+padding:8px;
+color:#7a7a7a;
+opacity:0.56;
+
+}
+.blogo1{
+font-family:arial;
+font-size:2em;
+letter-spacing:1px;
+
+padding:8px;
+color:#fff;
+
+
+}
+
+.modtext{
+font-family:arial;
+font-size:1em;
+text-align:left;
+}
+.modbtn{
+padding:5px;
+border:1px solid #666666;
+}
+
+.navlink{
+font-family:arial;
+color:#666666;
+text-decoration:none;
+padding:5px;
+font-size:1em;
+
+}
+
+.btn{
+font-family:arial;
+font-size:1em;
+background-color:#545455;
+padding:20px;
+border-radius:8px;
+color:#fff;
+text-decoration:none;
+opacity:0.7;
+}
+.btnaction{
+font-family:arial;
+font-size:1em;
+background-color:#212d38;
+padding:20px;
+border-radius:8px;
+color:#fff;
+text-decoration:none;
+
+}
+
+.title1{
+font-family:arial;
+font-size:1.3em;
+}
+.banner{
+width:60%;
+}
+
+.modtext{
+font-size:1em;
+}
+
+
+.carcard{
+width:90%;
+overflow:hidden;
+}
+
+.carcardprofile{
+width:23%;
+padding:1%;
+float:left;
+}
+
+.footer{
+background-color:#fafafa;
+padding:30px;
+}
+
+.footerlink{
+font-size:.9em;
+
+letter-spacing:1px;
+text-transform:uppercase;
+color:black;
+text-decoration:none; 
+
+}
+
+.smallspace{
+height:40px;
+}
+
+.boxleftfloat{
+float:left; width:50%;
+}
+
+.copyright{
+font-size:.75em;
+opacity:0.8;
+padding:5px;
+}
+  .optheight{
+    height:200px
+  }
+
+@media only screen and (max-width:1000px){
+  
+      .optheight{
+    height:160px
+  }
+
+  .containerimg{
+  height:auto;
+    display:none;
+  }
+   .containerimgmobile{
+  height:auto;
+     display:block;
+  }
+  
+  
+
+.carcardprofile{
+width:48%;
+padding:1%;
+float:left;
+}
+
+.boxleftfloat{
+float:none; width:90%;
+}
+
+
+.smallspace{
+height:5px;
+}
+.headernav{
+
+}
+.modtext{
+text-align:left;
+font-size:.9em;
+}
+
+.banner{
+width:90%;
+}
+.logo{
+font-size:.8em;
+width:80%;
+}
+
+.logo12{
+font-size:.8em;
+width:80%;
+}
+
+.blogo{
+
+font-size:1.4em;
+opacity:0.8;
+
+}
+
+.navlink{
+
+font-size:.9em;
+
+}
+
+.centered {
+ top: 40%;
+  
+}
+
+.btn{
+font-size:.9em;
+padding:10px;
+}
+
+.btnaction{
+font-size:.9em;
+padding:10px;
+}
+.blogo1{
+font-size:1.4em;
+
+
+}
+
+}
+
+</style>
