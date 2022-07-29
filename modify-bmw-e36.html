@@ -76,19 +76,91 @@ font-size:.9em;
 
 <div class="optheight"></div>
 <center>
-<div class="banner">
+  <style>
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/wjYZNrr0/bmw-e36-6.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+    
+    .carfont{
+      font-weight:800;
+      font-size:2em;
+      font-family:century gothic;
+      text-transform:uppercase;
+    }
   
-<h2 style="float:left;font-family: arial;
-    font-size: 2em;
+</style>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <p style="text-transform:uppercase; font-weight:none;">1990-1999</p>
+   <h2 style="font-family: century gothic, arial;
+    font-size: 2.3em;text-shadow:2px 2px 3px #000000;
     letter-spacing: 1px;text-transform:uppercase;
-    color: #353535;text-align:left;">BMW E36</h2>
+    color: #fff;">BMW E36</h2>
+  </div>
 </div>
+
+<br><br>
+  <p class="carfont">BMW 3 Series (E36)</p>
+  <p class="carparagraph">
+    The third generation of the BMW 3 Series line of small executive vehicles, known as the BMW E36, was manufactured by the German automaker BMW from 1990 to 2000. The four-door sedan body style was used for the first models, then in subsequent years, the coupe, convertible, wagon ("Touring"), hatchback ("Compact"), and the uncommon four-door convertible Baur TC4 were added.
+  </p>
+  
+  
+  
+  
   <div style="margin-top:-5px;" class="banner">
    
-  <div class="post">
-  <img src="https://i.postimg.cc/wjYZNrr0/bmw-e36-6.jpg"/>
-    <br><br>
+  <img class="carimg" src="https://i.postimg.cc/0NWJzWrk/bmw-e36-1.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/25KVk1X3/bmw-e36-2.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/G24TGFsk/bmw-e36-3.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/QdSFz4QQ/bmw-e36-4.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/nz9MCn62/bmw-e36-5.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/QMtFZQmR/bmw-e36-7.jpg"/>
+  
   </div>
+    <p class="carfont">Body Styles</p>
+  <p class="carparagraph">
+    1990-1998: 4-Door Sedan
+    <br>
+    1990-1999: 2-Door Coupe
+    <br>
+    1993-1999: 2-Door Convertible
+    <br>
+    1994-1995: 5-Door Wagon/Touring
+    <br>
+    1994-2000: 3-Door Hatchback
+  </p>
+  
+  <p class="carfont">Drivetrain</p>
+  <p class="carparagraph">
+    1994-1999: 5 Speed Manual
+    <br>
+    1996-1999: 6 Speed Manual
+    <br>
+    4 Speed Automatic
+<br>
+    5 Speed Automatic
+    <br><br>
+    All models are rear-wheel drive.
+  </p>
   </div>
   
    
@@ -352,11 +424,16 @@ font-family:arial;
 font-size:1.3em;
 }
 .banner{
-width:50%;
+width:90%;
   overflow:hidden;
   
-  margin-top:3%;
+  margin-top:20px;
 }
+  
+  .carimg{
+    width:25%;
+    padding:30px;
+  }
 
 .modtext{
 font-size:1em;
@@ -492,9 +569,17 @@ li.dropdown {
     color: #fff;
     text-decoration: none;
   }
-  
+    .carparagraph{
+      width:50%;
+      font-family:century gothic;
+      font-size:1.1em;
+    }
   
 @media only screen and (max-width:1000px){
+  
+    .carparagraph{
+      width:80%;
+    }
   
   .posttext{
     margin-top:8px;
