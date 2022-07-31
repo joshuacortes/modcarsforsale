@@ -40,13 +40,37 @@ font-size:.9em;
 <a style="text-decoration:none;" href="/create-listing"><div class="ticker"><center><p class="tickertext">Submit Modified Vehicle &#8250;</p></center></div></a>
 <Center>
 <a style="text-decoration:none;" href="/"><p class="logo">modcarsforsale.com</p></a>
-<br>
-<div style="margin-top:-10px;">
+
+<div class="navlinkbox">
+<a class="navlink" href="/best-cars-to-modify">Cars to Modify</a>
 <a class="navlink" href="/modified-cars">Modified Cars</a>
 <a class="navlink" href="/sell-modified-cars">Sell Modified Car</a>
 <a class="navlink" href="/car-wallpapers">Car Wallpapers</a>
+<a class="navlink" href="/learn">Learn</a>
 </div>
 </center>
+  
+  
+
+
+
+<ul>
+  <li class="dropdown"><center>
+    <a style="
+  font-size:1.6em;" href="javascript:void(0)" class="dropbtn">&#9776;</a>
+    <div class="dropdown-content">
+      <a href="/best-cars-to-modify">BEST CARS TO MODIFY</a>
+      <a href="/modified-cars">MODIFIED CARS</a>
+      <a href="/sell-modified-cars">SELL MODIFIED CAR</a>
+      <a href="/car-wallpapers">CAR WALLPAPERS</a>
+      <a href="/learn">Learn</a>
+      </center>
+    </div>
+  </li>
+</ul>
+
+<br>
+</div>
 <br>
 </div>
 
@@ -705,7 +729,7 @@ opacity:0.7;
 body{
 padding:0;
 margin:0;
-font-family:arial;
+  font-family:century gothic, arial;
  
   background: url(https://i.postimg.cc/wBXSJV6z/Untitled-design-1.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -939,6 +963,104 @@ padding:10px;
 }
 
 
+}
+  
+  
+  
+
+
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+    display:none;
+    width:100%;
+}
+
+li {
+    width:100%;
+}
+
+li a, .dropbtn {
+   display: inline-block;
+  color: #000000;
+    width:100%;
+  text-align: center;
+  padding-top:7px;
+  padding-bottom:7px;
+  text-transform:uppercase;
+  text-decoration: none;
+  font-size:.9em;
+  font-family:century gothic, arial;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  opacity:0.7
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  
+    width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  
+  padding-top:10px;
+  padding-bottom:10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  
+  
+  .navlinkbox{
+    margin-top:20px;
+    display:block;
+    margin-bottom:10px;
+  }
+  
+
+ .optheight{
+    height:110px
+  }
+
+
+
+
+
+@media only screen and (max-width:1000px){
+     .optheight{
+    height:90px
+  }
+  .navlinkbox{
+    margin-top:-10px;
+    display:none;
+  }
+  
+    ul {
+display:block;
+}
+
+  
 }
 
 </style>
