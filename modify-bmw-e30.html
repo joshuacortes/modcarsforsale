@@ -76,33 +76,80 @@ font-size:.9em;
 
 <div class="optheight"></div>
 <center>
-<div class="banner">
-  
-<h2 style="float:left;font-family: arial;
-    font-size: 2em;
-    letter-spacing: 1px;text-transform:uppercase;
-    color: #353535;text-align:left;">BMW E30</h2>
-</div>
-  <div style="margin-top:-5px;" class="banner">
-   
-  <div class="post">
-  <img src="https://i.postimg.cc/cL7jBmyZ/bmw-e30-4.jpg"/>
-    <br><br>
-<img src="https://i.postimg.cc/Y0L45RQy/bmw-e30-8.jpg"/>
-    <br><br>
-<img src="https://i.postimg.cc/7Lq25gyf/bmw-e30-7.jpg"/>
-    <br><br>
-<img src="https://i.postimg.cc/W1GZp5CB/bmw-e30-6.jpg"/>
+  <style>
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/cL7jBmyZ/bmw-e30-4.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
     
-    <br><br>
-<img src="https://i.postimg.cc/QttKbhCD/bmw-e30-5.jpg"/>
-    <br><br>
-<img src="https://i.postimg.cc/JzVJWf63/bmw-e30-3.jpg"/>
-    <br><br>
-<img src="https://i.postimg.cc/tgDVWYXD/bmw-e30-2.jpg"/>
-    <br><br>
-<img src="https://i.postimg.cc/T1Bb1FR6/bmw-e30-1.jpg"/>
+    .carfont{
+      font-weight:800;
+      font-size:2em;
+      font-family:century gothic;
+      text-transform:uppercase;
+    }
+  
+</style>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <p style="text-transform:uppercase; font-weight:none;">1982-1994</p>
+   <h2 style="font-family: century gothic, arial;
+    font-size: 2.3em;text-shadow:2px 2px 3px #000000;
+    letter-spacing: 1px;text-transform:uppercase;
+    color: #fff;">BMW E30</h2>
   </div>
+</div>
+
+<br><br>
+  <p class="carfont">BMW 3 Series (E30)</p>
+  <p class="carparagraph">
+    The first 3 Series to be produced in 4-door sedan and wagon/estate body types, the model range featured 2-door coupe and convertible body variants[4][5] as well. It was propelled by four-, six-, and six-cylinder diesel engines, the latter of which was a first for the 3 Series. The first BMW with all-wheel drive was the E30 325iX.
+  </p>
+  
+  <br>
+   <p class="carfont">Body Styles</p>
+  <p class="carparagraph">
+  The E30 eventually became available as a four-door sedan and five-door station wagon in addition to the two-door sedan and Baur convertible body types of its E21 forebears (marketed as "Touring").
+  </p>
+  
+  <p class="carfont">Drivetrain</p>
+  <p class="carparagraph">
+    
+   For the various E30 variants, a total of six transmissions—four manual and two automatic—were offered. Rear-wheel drive or permanent all-wheel drive were available for the E30 (325iX saloons and estaes only).
+  </p>
+  
+  <br>
+  
+  <div style="" class="banner">
+   
+  <img class="carimg"src="https://i.postimg.cc/7Lq25gyf/bmw-e30-7.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/W1GZp5CB/bmw-e30-6.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/QttKbhCD/bmw-e30-5.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/JzVJWf63/bmw-e30-3.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/tgDVWYXD/bmw-e30-2.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/T1Bb1FR6/bmw-e30-1.jpg"/>
+    
+  <img class="carimg" src="https://i.postimg.cc/Y0L45RQy/bmw-e30-8.jpg"/>
+  
+  </div>
+   
   </div>
   
    
@@ -366,11 +413,16 @@ font-family:arial;
 font-size:1.3em;
 }
 .banner{
-width:50%;
+width:90%;
   overflow:hidden;
   
-  margin-top:3%;
+  margin-top:20px;
 }
+  
+  .carimg{
+    width:25%;
+    padding:30px;
+  }
 
 .modtext{
 font-size:1em;
@@ -506,9 +558,17 @@ li.dropdown {
     color: #fff;
     text-decoration: none;
   }
-  
+    .carparagraph{
+      width:50%;
+      font-family:century gothic;
+      font-size:1.1em;
+    }
   
 @media only screen and (max-width:1000px){
+  
+    .carparagraph{
+      width:80%;
+    }
   
   .posttext{
     margin-top:8px;
@@ -565,6 +625,10 @@ font-size:.9em;
 width:90%;
   margin-top:60px;
 }
+  .carimg{
+    width:40%;
+    padding:3px;
+  }
 .logo{
 font-size:1em;
 width:80%;
