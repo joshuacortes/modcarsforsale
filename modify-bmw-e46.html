@@ -76,19 +76,97 @@ font-size:.9em;
 
 <div class="optheight"></div>
 <center>
-<div class="banner">
+  <style>
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/KYbkXTWb/bmw-e46-17.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+    
+    .carfont{
+      font-weight:800;
+      font-size:2em;
+      font-family:century gothic;
+      text-transform:uppercase;
+    }
   
-<h2 style="float:left;font-family: arial;
-    font-size: 2em;
+</style>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <p style="text-transform:uppercase; font-weight:none;">1998-2005</p>
+   <h2 style="font-family: century gothic, arial;
+    font-size: 2.3em;text-shadow:2px 2px 3px #000000;
     letter-spacing: 1px;text-transform:uppercase;
-    color: #353535;text-align:left;">BMW E46</h2>
-</div>
-  <div style="margin-top:-5px;" class="banner">
-   
-  <div class="post">
-  <img src="https://i.postimg.cc/1RTLmXrx/bmw-e46-2.jpg"/>
-    <br><br>
+    color: #fff;">BMW E46</h2>
   </div>
+</div>
+
+<br><br>
+  <p class="carfont">BMW 3 Series (E46)</p>
+  <p class="carparagraph">
+  The fourth generation of the compact executive BMW 3 Series line, which was built by the German carmaker BMW from 1997 to 2006 and was the replacement for the E36, whose manufacturing ended in 2000. The E46 was initially released in November 1997 and came in a variety of body types, including sedan, coupé, convertible, station wagon, and hatchback. The 3 Series Compact name has been used to promote the latter.
+<br><br>
+The coupé-bodied M3 performance model debuted in June 2000, and in April 2001, the convertible version of the vehicle was released. It has a 6-speed manual or 6-speed SMG-II automated manual transmission and a BMW S54 straight-six engine as its power source.
+  </p>
+  
+  <br>
+   <p class="carfont">Body Styles</p>
+  <p class="carparagraph">
+  1997-2005: 4-door sedan/saloon
+    <br>
+    1998-2006: 2-door coupé
+    <br>
+    1999-2006: 2-door convertible
+    <br>
+    1999-2005: 5-door wagon/estate
+    <br>
+    2000-2004: 3-door hatchback 
+  </p>
+  
+  <p class="carfont">Drivetrain</p>
+  <p class="carparagraph">
+    
+   Models were initially available in rear-wheel drive and later models included all-wheel drive. 5-speed and 6-speed are available in manual and automatic transmissions.
+  </p>
+  
+  <br>
+  
+  <div style="" class="banner">
+   
+  <img class="carimg"src="https://i.postimg.cc/CKw1rgZL/bmw-e46-1.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/dQfhspf4/bmw-e46-11.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/zvQb4Ps2/bmw-e46-13.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/ZnXnwvN1/bmw-e46-16.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/GhsHHzwr/bmw-e46-15.jpg"/>
+     <img class="carimg" src="https://i.postimg.cc/JzN0Qnz2/bmw-e46-3.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/9MFD0hVN/bmw-e46-18.jpg"/>
+    
+    
+     <img class="carimg" src="https://i.postimg.cc/RZ5qff4t/bmw-e46-4.jpg"/>
+     <img class="carimg" src="https://i.postimg.cc/Dyt4gHd8/bmw-e46-6.jpg"/>
+     <img class="carimg" src="https://i.postimg.cc/FzY1bVYy/bmw-e46-5.jpg"/>
+     <img class="carimg" src="https://i.postimg.cc/ryZrdKDG/bmw-e46-12.jpg"/>
+  <img class="carimg" src="https://i.postimg.cc/026J7PST/bmw-e46-14.jpg"/>
+  <img class="carimg" src="https://i.postimg.cc/1RTLmXrx/bmw-e46-2.jpg"/>
+  
+  </div>
+   
   </div>
   
    
@@ -352,11 +430,16 @@ font-family:arial;
 font-size:1.3em;
 }
 .banner{
-width:50%;
+width:90%;
   overflow:hidden;
   
-  margin-top:3%;
+  margin-top:20px;
 }
+  
+  .carimg{
+    width:25%;
+    padding:30px;
+  }
 
 .modtext{
 font-size:1em;
@@ -492,9 +575,17 @@ li.dropdown {
     color: #fff;
     text-decoration: none;
   }
-  
+    .carparagraph{
+      width:50%;
+      font-family:century gothic;
+      font-size:1.1em;
+    }
   
 @media only screen and (max-width:1000px){
+  
+    .carparagraph{
+      width:80%;
+    }
   
   .posttext{
     margin-top:8px;
@@ -551,6 +642,10 @@ font-size:.9em;
 width:90%;
   margin-top:60px;
 }
+  .carimg{
+    width:40%;
+    padding:3px;
+  }
 .logo{
 font-size:1em;
 width:80%;
