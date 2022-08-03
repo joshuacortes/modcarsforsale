@@ -75,20 +75,88 @@ font-size:.9em;
 </div>
 
 <div class="optheight"></div>
+
+
+
 <center>
-<div class="banner">
+  <style>
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/x8ChfY5R/nissan-datsun-240z-10.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+    
+    .carfont{
+      font-weight:800;
+      font-size:2em;
+      font-family:century gothic;
+      text-transform:uppercase;
+    }
   
-<h2 style="float:left;font-family: arial;
-    font-size: 2em;
+</style>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <p style="text-transform:uppercase; font-weight:none;">1978-2002</p>
+   <h2 style="font-family: century gothic, arial;
+    font-size: 2.3em;text-shadow:2px 2px 3px #000000;
     letter-spacing: 1px;text-transform:uppercase;
-    color: #353535;text-align:left;">Mazda Rx7</h2>
-</div>
-  <div style="margin-top:-5px;" class="banner">
-   
-  <div class="post">
-  <img src="https://i.postimg.cc/GtZNqgm3/mazda-rx7.jpg"/>
-    <br><br>
+    color: #fff;">Mazda RX7</h2>
   </div>
+</div>
+
+<br><br>
+  <p class="carfont">Mazda RX7</p>
+  <p class="carparagraph">
+   From 1978 until 2002, Mazda produced and sold the Mazda RX-7, a front-wheel-drive sports car with a rotary engine. All three incarnations of the Mazda RX-7 used the same small, light Wankel rotary engine.
+<br><br>
+The SA (early) and FB (late) models of the RX-7 were two-seater, two-door hatchback coupés. It had a rotary engine with a 12A carburetor and, in later years, the choice of a 13B with electronic fuel injection.
+<br><br>
+    The second-generation RX-7, also known as the FD, was available as a 2+2-seater coupé with a very small number of 2-seater options. This had a 13B REW engine that was sequentially turbocharged.
+
+
+  </p>
+  
+ <br>
+  
+  <br>
+  
+  <div style="" class="banner">
+   
+      <img class="carimg"src="https://i.postimg.cc/SQTk2Jgc/mazda-rx7-15.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/qqRrDTvt/mazda-rx7-13.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/7Z7kWXwN/mazda-rx7-10.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/0Qv2fFSm/mazda-rx7-1.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/sDMypsLq/mazda-rx7-11.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/636xTXRH/mazda-rx7-12.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/hPNnsNWj/mazda-rx7-14.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/9M1VBMC5/mazda-rx7-2.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/90nhvnDL/mazda-rx7-3.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/tgQXqw2f/mazda-rx7-4.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/hvP4Fmpt/mazda-rx7-5.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/65q6Yd8H/mazda-rx7-6.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/bJqpbbX9/mazda-rx7-7.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/CxfhVSHk/mazda-rx7-8.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/0NY9bn4N/mazda-rx7-9.jpg"/>
+ 
+  
+  </div>
+   
   </div>
   
    
@@ -222,7 +290,7 @@ opacity:0.7;
 body{
 padding:0;
 margin:0;
-font-family:arial;
+font-family:century gothic, arial;
     background-color:#fcfcfc;
   
 }
@@ -254,15 +322,7 @@ width:100%;
 }
 
 
-.logo{
-font-family:arial;
-font-size:1em;
-letter-spacing:1px;
-text-transform:uppercase;
-padding:8px;
-width:300px;
-color:#c4c4c4;
-}
+
 
 .logo12{
 font-family:arial;
@@ -352,11 +412,16 @@ font-family:arial;
 font-size:1.3em;
 }
 .banner{
-width:50%;
+width:90%;
   overflow:hidden;
   
-  margin-top:3%;
+  margin-top:20px;
 }
+  
+  .carimg{
+    width:25%;
+    padding:30px;
+  }
 
 .modtext{
 font-size:1em;
@@ -408,12 +473,29 @@ padding:5px;
 
   
   
+
+  
+  .logo{
+font-family:arial;
+font-size:1em;
+letter-spacing:1px;
+text-transform:uppercase;
+padding:8px;
+width:300px;
+color:#c4c4c4;
+}
+
+
+
+
+
+
   ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2e3230;
+  background-color: #f2f2f2;
     display:none;
     width:100%;
 }
@@ -421,16 +503,18 @@ padding:5px;
 li {
     width:100%;
 }
-
+  
 li a, .dropbtn {
   display: inline-block;
-  color: white;
+  color: #000000;
     width:100%;
   text-align: center;
   padding-top:7px;
   padding-bottom:7px;
   text-transform:uppercase;
   text-decoration: none;
+  font-size:.9em;
+  font-family:century gothic, arial;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -492,9 +576,17 @@ li.dropdown {
     color: #fff;
     text-decoration: none;
   }
-  
+    .carparagraph{
+      width:50%;
+      font-family:century gothic;
+      font-size:1.1em;
+    }
   
 @media only screen and (max-width:1000px){
+  
+    .carparagraph{
+      width:80%;
+    }
   
   .posttext{
     margin-top:8px;
@@ -551,6 +643,10 @@ font-size:.9em;
 width:90%;
   margin-top:60px;
 }
+  .carimg{
+    width:40%;
+    padding:3px;
+  }
 .logo{
 font-size:1em;
 width:80%;
