@@ -75,20 +75,89 @@ font-size:.9em;
 </div>
 
 <div class="optheight"></div>
+
 <center>
-<div class="banner">
+  <style>
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.postimg.cc/7YDrdqG5/nissan-silvia-s15-2.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+    
+    .carfont{
+      font-weight:800;
+      font-size:2em;
+      font-family:century gothic;
+      text-transform:uppercase;
+    }
   
-<h2 style="float:left;font-family: arial;
-    font-size: 2em;
+</style>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <p style="text-transform:uppercase; font-weight:none;">1999-2002</p>
+   <h2 style="font-family: century gothic, arial;
+    font-size: 2.3em;text-shadow:2px 2px 3px #000000;
     letter-spacing: 1px;text-transform:uppercase;
-    color: #353535;text-align:left;">Nissan Silvia S15</h2>
-</div>
-  <div style="margin-top:-5px;" class="banner">
-   
-  <div class="post">
-  <img src="https://i.postimg.cc/q7kFb34K/nissan-silvia-s15.jpg"/>
-    <br><br>
+    color: #fff;">Nissan Silvia S15</h2>
   </div>
+</div>
+
+<br><br>
+  <p class="carfont">Nissan Silvia S15</p>
+  <p class="carparagraph">
+   In 1999, a new Silvia model called the S15 was released in Japan. Its SR20DET Inline-four engine now produces 275 Nm, or 203 lb-ft (28 kg-m), of torque at 4,800 rpm and 250 PS (247 bhp; 184 kW) at 6,400 rpm, thanks to an upgraded ball bearing turbocharger and engine management system. The SR20DE without a turbo generated 165 PS (163 bhp; 121 kW). 
+<br>
+<br>
+The interior and exterior of the S15 Silvia featured aggressive style that updated the previous Silvia's appearance to correspond with contemporary automotive design trends. In order to comply with the Japanese Government compact class, the body dimensions were decreased from the previous generation, which had an impact on the prior model's sales.
+<br><br>
+
+Only Australia and Japan sold new Silvias of this generation.
+  </p>
+  
+  <br>
+   <p class="carfont">Spec-R</p>
+  <p class="carparagraph">
+The Spec-6-speed R's manual gearbox and 4-speed automatic transmission set it apart from earlier Silvia versions. Through the employment of larger anti-roll bars and strut bracing, the Spec-R also featured considerable chassis and suspension strengthening. The S15 had a bigger brake booster along with the same 4-piston front brake calipers as the Z32 300ZX.
+
+  </p>
+  
+  <p class="carfont">Spec-S</p>
+  <p class="carparagraph">
+    In the Spec-S, a 5-speed manual transmission was available (in addition to a 4-speed automatic available on both the Spec-S and the Spec-R). It had a 4-piston front brake caliper and a slightly smaller brake booster but lacked the extra chassis support of the Spec-R. Only an open differential and an optional LSD were standard on the Spec-S. The Spec-S versions sold in Australia had the same helical differential, chassis bracing, and 6-speed manual transmission as the Spec-R models sold in that country. 
+  </p>
+  
+  <br>
+  
+  <div style="" class="banner">
+   
+  <img class="carimg"src="https://i.postimg.cc/pLcNm80j/nissan-silvia-s15-4.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/QCZZX3fn/nissan-silvia-s15-5.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/ydZz4dyZ/nissan-silvia-s15-6.jpg"/>
+  <img class="carimg"src="https://i.postimg.cc/KvNhyCBJ/nissan-silvia-s15-7.jpg"/>
+      <img class="carimg"src="https://i.postimg.cc/QCgGCyPN/nissan-silvia-s15-1.jpg"/>
+ 
+    
+  <img class="carimg"src="https://i.postimg.cc/ZY6hwWRk/nissan-silvia-s15-3.jpg"/>
+
+  
+  </div>
+   
   </div>
   
    
@@ -222,7 +291,7 @@ opacity:0.7;
 body{
 padding:0;
 margin:0;
-font-family:arial;
+font-family:century gothic, arial;
     background-color:#fcfcfc;
   
 }
@@ -254,15 +323,7 @@ width:100%;
 }
 
 
-.logo{
-font-family:arial;
-font-size:1em;
-letter-spacing:1px;
-text-transform:uppercase;
-padding:8px;
-width:300px;
-color:#c4c4c4;
-}
+
 
 .logo12{
 font-family:arial;
@@ -352,11 +413,16 @@ font-family:arial;
 font-size:1.3em;
 }
 .banner{
-width:50%;
+width:90%;
   overflow:hidden;
   
-  margin-top:3%;
+  margin-top:20px;
 }
+  
+  .carimg{
+    width:25%;
+    padding:30px;
+  }
 
 .modtext{
 font-size:1em;
@@ -408,12 +474,29 @@ padding:5px;
 
   
   
+
+  
+  .logo{
+font-family:arial;
+font-size:1em;
+letter-spacing:1px;
+text-transform:uppercase;
+padding:8px;
+width:300px;
+color:#c4c4c4;
+}
+
+
+
+
+
+
   ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2e3230;
+  background-color: #f2f2f2;
     display:none;
     width:100%;
 }
@@ -421,16 +504,18 @@ padding:5px;
 li {
     width:100%;
 }
-
+  
 li a, .dropbtn {
   display: inline-block;
-  color: white;
+  color: #000000;
     width:100%;
   text-align: center;
   padding-top:7px;
   padding-bottom:7px;
   text-transform:uppercase;
   text-decoration: none;
+  font-size:.9em;
+  font-family:century gothic, arial;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -492,9 +577,17 @@ li.dropdown {
     color: #fff;
     text-decoration: none;
   }
-  
+    .carparagraph{
+      width:50%;
+      font-family:century gothic;
+      font-size:1.1em;
+    }
   
 @media only screen and (max-width:1000px){
+  
+    .carparagraph{
+      width:80%;
+    }
   
   .posttext{
     margin-top:8px;
@@ -551,6 +644,10 @@ font-size:.9em;
 width:90%;
   margin-top:60px;
 }
+  .carimg{
+    width:40%;
+    padding:3px;
+  }
 .logo{
 font-size:1em;
 width:80%;
