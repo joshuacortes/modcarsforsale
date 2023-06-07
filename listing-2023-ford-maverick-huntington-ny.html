@@ -98,16 +98,44 @@ font-size:.9em;
 
 
 <br><br>
-<br><br>
-<bR>
-
-
-<br>
-<br>
-<br>
-
+<br><br><br>
 
 <center>
+  
+<div class="bannerphoto">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://user-images.githubusercontent.com/11182868/244096793-984adbe1-d20b-4e0e-a105-b87b5b3251da.jpg" style="width:100%">
+  <img class="mySlides" src="https://user-images.githubusercontent.com/11182868/244096750-6df7711f-b2b8-463a-88bc-21f26023d297.jpg" style="width:100%">
+  <img class="mySlides" src="https://user-images.githubusercontent.com/11182868/244096790-9e966b2f-6a40-4662-921f-3e19a138a0d9.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+  </div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+  
 <div class="banner">
 <h2 class="logo13">2023 Ford Maverick</h2>
 <br>
@@ -147,7 +175,6 @@ Website: www.empirefordofhuntington.com
   
   </div>
   </center>
-<br><br>
 <script>
 var acc = document.getElementsByClassName("accordion");
 var i;
@@ -182,39 +209,6 @@ for (i = 0; i < acc.length; i++) {
   
   
   
-<div class="bannerphoto">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="https://user-images.githubusercontent.com/11182868/244096793-984adbe1-d20b-4e0e-a105-b87b5b3251da.jpg" style="width:100%">
-  <img class="mySlides" src="https://user-images.githubusercontent.com/11182868/244096750-6df7711f-b2b8-463a-88bc-21f26023d297.jpg" style="width:100%">
-  <img class="mySlides" src="https://user-images.githubusercontent.com/11182868/244096790-9e966b2f-6a40-4662-921f-3e19a138a0d9.jpg" style="width:100%">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-  </div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-
   
   
   
