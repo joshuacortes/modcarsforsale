@@ -133,6 +133,7 @@ td, th {
   text-align: left;
   padding: 20px;  
 }
+  
 
 
 
@@ -153,9 +154,63 @@ td, th {
 }
 
   }
+  
+  
+  
+  #myInput {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e9/Vector_search_icon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+}
+
+#myTable tr {
+}
+
+#myTable tr.header, #myTable tr:hover {
+}
 
 </style>
-<table>
+  <div style="overflow:hidden;">
+  <h2 style="float:left; clear:both;"> Search for Modified Cars:</h2><br>
+    <div style="float:left; clear:both;">
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="1996 NISSAN 240..." title="Type in a name">
+    </div>
+  </div>
+  <br><br>
+  <script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+<table id="myTable">
 
 
   <tr>
