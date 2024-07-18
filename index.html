@@ -115,13 +115,13 @@ padding:30px;
 .footerlink{
 font-size:.9em;
 
-letter-spacing:1px;
+letter-spacing:-1px;
 text-transform:uppercase;
 color:#fff;
 text-decoration:none; 
   float:left;
   clear:both;
-  padding-top:10px;
+  padding-top:15px;
 }
 
 
@@ -134,9 +134,15 @@ padding:5px;color:#fff;
 }
 
   
-  
+  .footerbox{
+    overflow:hidden;width:60%;
+  }
   
 @media only screen and (max-width:1000px){
+  
+    .footerbox{
+    overflow:hidden;width:100%;
+  }
   
 .banner{
 width:100%;
@@ -341,7 +347,7 @@ display:block;
   
   
 <section class="footer">
-<div style="overflow:hidden;">
+<div class="footerbox">
 <a title="Cars for Sale Forum" class="footerlink" href="/"><b>Cars for Sale Forum</b></a>
 <br>
 <a title="Best Cars to Modify" class="footerlink" href="/best-cars-to-modify"><b>Best Cars to Modify</b></a>
@@ -410,8 +416,8 @@ display:block;
 </div>
 <p class="copyright">MODCARSFORSALE@GMAIL.COM</p>
 <p class="copyright"> ©2024 MODIFIED CARS FOR SALE FORUM</p>
-
 </section>
 
- 
+  </body>
+</html>
  
